@@ -299,7 +299,28 @@ nav {
   width: 100%;
 }
 
+.footer {
+  background-color: var(--clr-dark-moderate-cyan);
+  height: 50vh;
+  padding: 3.5rem 0;
+}
+
+.footer > div {
+  margin-bottom: 5rem;
+}
+
+.footer > div > h1 {
+  font-weight: var(--fw-900);
+  color: var(--clr-primary-dark-desaturated-cyan);
+}
+
+.socials > a > img {
+  margin: 0 1rem;
+}
+
 .links > ul > li {
   border: none;
   cursor: pointer;
+  margin: 1rem 1rem;
+  background-color: var(--clr-dark-moderate-cyan);
 }
