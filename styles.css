@@ -98,3 +98,56 @@ h5,
 h6 {
  overflow-wrap: break-word;
 }
+
+
+.page--header {
+    background-image: url(./images/desktop/image-header.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 95vh;
+}
+
+
+.header--heading {
+  text-align: center;
+  color: var(--clr-neutral-white);
+}
+
+.content--img {
+  padding: 0;
+}
+
+.content--img > img {
+  width: 100%;
+}
+
+.graphic--design {
+  padding: 0;
+  position: relative;
+}
+
+.graphic--design--content {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+}
+
+.graphic--design > img {
+  width: 100%;
+}
+
+.photography {
+  padding: 0;
+  position: relative;
+}
+
+.photography--content {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+}
+
+.photography > img {
+  width: 100%;
+}
