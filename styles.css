@@ -100,19 +100,42 @@ h6 {
 }
 
 
-.page--header {
-    background-image: url(./images/desktop/image-header.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 95vh;
+nav {
+  margin-bottom: 5.5rem;
 }
 
+.navigation > ul > li > a {
+  color: var(--clr-neutral-white);
+}
+
+.active--link {
+  font-weight: var(--fw-700);
+  text-transform: uppercase;
+  font-family: var(--ff-fraunces);
+}
+
+.page--header {
+  background-image: url(./images/desktop/image-header.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 93vh;
+}
 
 .header--heading {
   text-align: center;
   color: var(--clr-neutral-white);
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-family: var(--ff-fraunces);
+  letter-spacing: 0.7rem;
+  font-weight: var(--fw-900);
 }
+
+.header--img {
+  margin-top: 8.5rem;
+}
+
 
 .content--img {
   padding: 0;
