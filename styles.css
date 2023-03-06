@@ -163,3 +163,8 @@ h6 {
 .gallery--col > img {
   width: 100%;
 }
+
+.links > ul > li {
+  border: none;
+  cursor: pointer;
+}
