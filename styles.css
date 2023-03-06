@@ -151,3 +151,15 @@ h6 {
 .photography > img {
   width: 100%;
 }
+
+.testimony--image {
+  width: 15%;
+}
+
+.gallery--col {
+  padding: 0;
+}
+
+.gallery--col > img {
+  width: 100%;
+}
