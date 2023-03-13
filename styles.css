@@ -220,8 +220,12 @@ img {
   position: absolute;
   text-align: center;
   width: 23rem;
-  top: 65%;
-  left:  30%;
+  color: var(--clr-primary-dark-desaturated-cyan);
+  margin: 0;
+  top: 70%;
+  left: 50%;
+  -ms-transform: translate( -50%, -50% );
+  transform: translate( -50%, -50% );
 }
 
 .info > h2 {
@@ -235,14 +239,18 @@ img {
 .photography--section {
   padding: 0;
   position: relative;
+  color: var(--clr-dark-blue);
 }
 
 .photography--info {
   position: absolute;
   text-align: center;
   width: 23rem;
-  top: 65%;
-  left: 30%;
+  margin: 0;
+  top: 70%;
+  left: 50%;
+  -ms-transform: translate( -50%, -50% );
+  transform: translate( -50%, -50% );
 }
 
 .design--img {
@@ -349,4 +357,15 @@ footer {
 
 .facebook, .instagram, .twitter, .pinterest {
   width: 1.5%;
+}
+
+@media only screen and (max-width: 768px) {
+  .testimonies {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .facebook, .instagram, .twitter, .pinterest {
+    width: 2.5%;
+  }
 }
