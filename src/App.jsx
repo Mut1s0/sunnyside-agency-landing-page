@@ -1,7 +1,54 @@
+import { Features, Footer, Gallery, Hero, Navigation, Services, Testimonials } from "./components"
 
 function App() {
   return (
-    <h1>App</h1>
+
+    <main>
+
+      <div>
+
+        <header>
+
+          <Navigation />
+
+          <Hero />
+
+        </header>
+
+        <section>
+
+          <Features />
+
+        </section>
+
+        <section>
+
+          <Services />
+
+        </section>
+
+        <section>
+
+          <Testimonials />
+
+        </section>
+
+        <section>
+
+          <Gallery />
+
+        </section>
+
+        <footer>
+
+          <Footer />
+
+        </footer>
+
+      </div>
+
+    </main>
+    
   )
 }
 
