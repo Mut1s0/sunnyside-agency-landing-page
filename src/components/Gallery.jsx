@@ -5,7 +5,7 @@ function Gallery() {
 
         <section>
 
-            <div className="grid grid-cols-1 ss:grid-cols-2 md:grid-cols-4">
+            <div className="grid grid-cols-2 md:grid-cols-4">
 
                 <picture>
                     <source media="(min-width: 768px)" srcSet={desktopGalleryMilkbottles} />

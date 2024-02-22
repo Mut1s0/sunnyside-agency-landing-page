@@ -7,11 +7,11 @@ function Footer() {
 
             <div>
 
-                <h1 className="text-center text-grayishBlue font-barlow font-semiBoldBarlow text-[40px] mb-[25px]">sunnyside</h1>
+                <h1 className="text-center text-grayishBlue font-barlow font-semiBoldBarlow text-[40px] mb-[30px]">sunnyside</h1>
 
                 <div className="mb-[50px]">
 
-                    <ul className="flex items-center justify-center gap-14">
+                    <ul className="flex items-center justify-center gap-5 ss:gap-12">
 
                         <li><a href="#" className="font-barlow font-semiBoldBarlow text-grayishBlue text-[20px]">About</a></li>
                         <li><a href="#" className="font-barlow font-semiBoldBarlow text-grayishBlue text-[20px]">Services</a></li>
