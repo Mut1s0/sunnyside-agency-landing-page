@@ -1,7 +1,28 @@
+import { iconArrowDown } from "../images";
 
 function Hero() {
+
     return(
-        <h1>Hero</h1>
+
+        <main className="h-full">
+
+            <div className="h-full">
+
+                <div className="text-center">
+
+                    <h1 className="text-white uppercase font-fraunces font-blackFraunces">we are <br className="block sm:hidden"/> creatives</h1>
+
+                </div>
+
+                <div className="flex items-center justify-center">
+
+                    <img src={iconArrowDown} alt="Arrow Down" className="" />
+
+                </div>
+
+            </div>
+
+        </main>
     )
 }
 
