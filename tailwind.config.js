@@ -16,7 +16,7 @@ export default {
 
         // Neutral colors
         veryDarkDesaturatedBlue: "hsl( 212, 27%, 19% )",
-        varyDarkGrayishBlue: "hsl( 213, 9%, 39% )",
+        veryDarkGrayishBlue: "hsl( 213, 9%, 39% )",
         darkGrayishBlue: "hsl( 232, 10%, 55% )",
         grayishBlue: "hsl( 210, 4%, 67% )",
         white: "hsl( 0, 0%, 100% )"

@@ -7,7 +7,7 @@ function App() {
 
       <div>
 
-        <header>
+        <header className="h-[90vh] border-2 border-green-900">
 
           <Navigation />
 
