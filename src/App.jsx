@@ -15,35 +15,15 @@ function App() {
 
         </header>
 
-        <section>
+        <Features />
+        
+        <Services />
 
-          <Features />
+        <Testimonials />
 
-        </section>
+        <Gallery />
 
-        <section>
-
-          <Services />
-
-        </section>
-
-        <section>
-
-          <Testimonials />
-
-        </section>
-
-        <section>
-
-          <Gallery />
-
-        </section>
-
-        <footer>
-
-          <Footer />
-
-        </footer>
+        <Footer />
 
       </div>
 

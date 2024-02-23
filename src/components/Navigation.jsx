@@ -13,7 +13,7 @@ function Navigation() {
 
                 <div>
 
-                    <img src={logo} alt="Logo" className="w-[150px]" />
+                    <img src={logo} alt="Logo" className="w-[150px] sm:w-[180px] cursor-pointer" />
 
                 </div>
 

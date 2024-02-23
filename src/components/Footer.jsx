@@ -13,9 +13,9 @@ function Footer() {
 
                     <ul className="flex items-center justify-center gap-5 ss:gap-12">
 
-                        <li><a href="#" className="font-barlow font-semiBoldBarlow text-grayishBlue text-[20px]">About</a></li>
-                        <li><a href="#" className="font-barlow font-semiBoldBarlow text-grayishBlue text-[20px]">Services</a></li>
-                        <li><a href="#" className="font-barlow font-semiBoldBarlow text-grayishBlue text-[20px]">Projects</a></li>
+                        <li><a href="#" className="font-barlow font-semiBoldBarlow text-grayishBlue text-[20px] hover:text-white">About</a></li>
+                        <li><a href="#" className="font-barlow font-semiBoldBarlow text-grayishBlue text-[20px] hover:text-white">Services</a></li>
+                        <li><a href="#" className="font-barlow font-semiBoldBarlow text-grayishBlue text-[20px] hover:text-white">Projects</a></li>
 
                     </ul>
 
@@ -27,7 +27,7 @@ function Footer() {
 
                         <li>
 
-                            <a href="#"><img src={iconFacebook} alt="Facebook" className="" /></a>
+                            <a href="#"><img src={iconFacebook} alt="Facebook" className="filter-white" /></a>
 
                         </li>
 
